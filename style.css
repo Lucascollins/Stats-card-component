@@ -207,4 +207,20 @@ body{
     .content .wrapper .grid-item p{
         font-size: 0.5rem;
     }
+    @media only screen and (max-height: 600px){
+        .container {
+            display: flex;
+            flex-direction: column-reverse;
+            width: 80%;
+            height:80%;
+            margin: 20px;
+        }
+        .content h1{
+            font-size: 1.2rem;
+    
+        }
+        .content p{
+            font-size: 0.7rem;
+        }
+    }
 }
